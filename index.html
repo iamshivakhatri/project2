@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html>    
+<head>
+	<title> WAWA | The best ecommerce site</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<style type="text/css">
+
+
+
+	.slideshow-container img {
+	width:1000px;
+	height: 500px;
+}
+.slideshow-container{
+
+width: 1000px;
+position: absolute;
+margin-top: 10px;
+margin-left: 13%;
+
+
+
+
+
+
+}
+
+.numbers{
+
+position: absolute;
+
+top: 0;
+
+color: #f2f2f2;
+
+padding: 8px 12px;
+
+font-size: 12px;
+
+}
+
+.myslides{
+
+display: none;
+
+}
+
+.prev , .next{
+
+position: absolute;
+
+top: 50%;
+
+font-size: 18px;
+
+font-weight: bold;
+
+padding: 16px;
+
+margin-top: -22px;
+
+border-radius: 0 3px 3px 0;
+
+color: #fff;
+
+cursor: pointer;
+border-color: black;
+
+
+}
+
+.next{
+
+right: 0;
+
+border-radius: 3px 0 0 3px;
+
+}
+
+.prev ,.next{
+
+background-color: rgba(0,0,0,0.8);
+
+}
+
+.caption{
+
+text-align: center;
+
+position: absolute;
+
+bottom: 8px;
+
+width: 100%;
+
+color: #f2f2f2;
+
+font-size: 15px;
+
+padding: 8px 22px;
+
+}
+
+.dots{
+
+width: 13px;
+
+height: 13px;
+
+background: gray;
+
+display: inline-block;
+
+border-radius: 50%;
+
+cursor: pointer;
+margin-top: 500px;
+
+
+}
+
+.fade{
+
+animation-name:fade;
+
+animation-duration:1.5s;
+
+}
+
+@keyframes fade{
+
+from {opacity: 0.4;}
+
+to {opacity: 1;}
+
+}
+
+.active, .dot:hover {
+
+background-color: #333;
+
+}
+#thoplo{
+	margin-left: 50%;
+	margin-top: 0px;
+}
+
+.clothes {
+      margin-top: 200px;
+      margin-left: 100px;
+}
+      
+      
+
+.clothes > img{
+      position: absolute;
+}
+.clothes > .clobut{
+      position: absolute;
+      background-color: black;
+      color:white;
+      margin-top: 7%;
+      outline: none;
+}
+.clothes > #clo2{
+      margin-top: 12%;
+      float:right;
+      position: relative;
+}
+.clothtitle{
+      margin-left: 100px;
+      margin-bottom: -150px;
+      font-size: 40px;
+      font-family: Maiandra GD,serif;
+
+}
+.homeappliance{
+      margin-top: 200px;
+      margin-left: 100px;
+}
+.homeappliance > img{
+      position:absolute;
+}
+.homeappliance > .homebut{
+      position: absolute;
+      background-color: black;
+      color:white;
+      margin-top: 7%;
+      outline: none;
+}
+.homeappliance  > #hom2{
+      margin-top: 12%;
+      float:right;
+      position: relative;
+}
+.legwear{
+      margin-top: 200px;
+      margin-left: 100px;
+}
+.legwear >img{
+       position:absolute;
+}
+.legwear > .shoesbut{
+      position: absolute;
+      background-color: black;
+      color:white;
+      margin-top: 7%;
+      outline: none;
+}
+.legwear > #shoe2{
+       margin-top: 12%;
+      float:right;
+      position: relative;
+
+}
+div{
+      cursor: pointer;
+
+}
+.clicker {
+      margin-top: 200px;
+      margin-left: 100px;
+
+}
+.clicker > img{
+      position: absolute;
+
+}
+.clicker > .cambut{
+      position: absolute;
+      background-color: black;
+      color:white;
+      margin-top: 7%;
+      outline: none;
+}
+.clicker > #cam2{
+        margin-top: 12%;
+      float:right;
+      position: relative;
+}
+.bigbag {
+       margin-top: 200px;
+      margin-left: 100px;
+
+
+}
+.bigbag  > img{
+      position: absolute;
+}
+.bigbag> .bagbut{
+      position: absolute;
+      background-color: black;
+      color:white;
+      margin-top: 7%;
+      outline: none;
+}
+.bigbag > #bag2{
+        margin-top: 12%;
+      float:right;
+      position: relative;
+}
+
+
+
+
+
+
+
+
+
+
+		
+	</style>
+
+	
+</head>
+
+
+<body  >  
+      <header>
+      	 
+      		<h1>wawa</h1>
+      		<ul id="yo  ">
+      			<li><a class="homered"   href="index.html" target="blank" >HOME</a></li>
+      			<li><a class="homeblack" style="margin-left: 140px" href="clothing.html" target="blank">CLOTHING</a></li>
+      			<li><a class="homeblack" href="electronic.html" target="blank">ELECTRONICS</a></li>
+      			<li><a class="homeblack" href="accessories.html" target="blank">ACCESORIES</a></li>
+      			<li><a class="homeblack" href="login.html" target="blank"> LOG IN</a></li>
+      			<li> <input  class="see" type="text" name="search" placeholder="search" > <li>
+
+      			
+      		</ul>
+
+      	
+      </header>
+      <div class="talako">
+      	
+      </div>
+     
+
+     <div class="slideshow-container">
+
+
+<div class="myslides fade">
+
+
+
+<div><img src="lady.jpeg"></div>
+
+<div class="caption"></div>
+
+</div>
+
+
+<div class="myslides fade">
+
+
+
+<div><img src="bag.jpg"></div>
+
+<div class="caption"> </div>
+
+</div>
+
+
+<div class="myslides fade">
+
+
+
+<div><img src="group.jpeg"></div>
+
+<div class="caption"> </div>
+
+</div>
+
+
+<div class="myslides fade">
+
+<div><img src="s 2.jpeg"></div>
+
+<div class="caption"></div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+
+<a class="next" onclick="plusSlides(1)" >&#10095;</a>
+
+
+</div>
+
+<br>
+
+
+<div id="thoplo">
+
+<span class="dots" onclick="currentSlide(1)"></span> 
+
+<span class="dots" onclick="currentSlide(2)"></span> 
+
+<span class="dots" onclick="currentSlide(3)"></span> 
+
+<span class="dots" onclick="currentSlide(4)"></span> 
+
+</div>
+
+
+<script type="text/javascript">
+
+var slideIndex = 1;
+
+showSlide(slideIndex);
+
+
+function plusSlides(n){
+
+showSlide(slideIndex += n);
+
+}
+
+
+function currentSlide(n) {
+
+showSlide(slideIndex = n);
+
+}
+
+
+function showSlide(n){
+
+var i;
+
+var slides = document.getElementsByClassName("myslides");
+
+var dots = document.getElementsByClassName("dots");
+
+if (n > slides.length) { slideIndex = 1};
+
+if (n < 1) { slideIndex = slides.length};
+
+for (i=0;i<slides.length;i++) {
+
+slides[i].style.display = "none";
+
+};
+
+for (i=0;i<dots.length;i++) {
+
+dots[i].className = dots[i].className.replace(" active","");
+
+};
+
+slides[slideIndex-1].style.display = "block";
+
+dots[slideIndex-1].className += " active";
+
+}
+
+autoslide()
+
+function autoslide(n){
+      
+
+      var i;
+      var slides = document.getElementsByClassName("myslides");
+
+      var dots = document.getElementsByClassName("dots");
+      for ( i = 0; i < slides.length; i++) {
+            slides[i].style.display="none";
+      }
+     
+
+
+      
+
+      if (slideIndex>slides.length){slideIndex=1};
+
+      for (i=0;i<dots.length;i++) {
+
+      dots[i].className = dots[i].className.replace(" active","");
+
+      };
+
+
+      slides[slideIndex-1].style.display="block"
+      dots[slideIndex-1].className += " active";
+
+      slideIndex++;
+      
+      setTimeout(autoslide,4000);
+
+
+
+}
+</script>
+
+
+<p class="clothtitle"> Clothes &nbsp &nbsp <span style="font-size: 25px;" > (20% OFF  ON THIS ITEMS) </span> </p>
+<div class="clothes" style="height: 190px;width: 735px;">
+      <img src="clothe 3.jpg " style="height: 190px;width: 735px;" class="clot" >
+      <img src="clothe1.jpg" style="height: 190px;width: 735px;" class="clot">
+      <img src="clothe2.jpg" style="height: 190px;width: 735px;" class="clot"> 
+      <button class="clobut" id="clo1" onclick="plus(-1)"> &#10094;</button>
+      <button class="clobut" id="clo2" onclick="plus(1)"> &#10095;</button>
+ </div> 
+
+       <script type="text/javascript">
+            var index =1;
+            slideshow(index);
+
+             function plus(n){
+                  index +=n;
+                  slideshow(index);
+
+             }
+             function slideshow(n){
+                  var image =document.getElementsByClassName('clot')
+                  for (var i = 0; i < image.length; i++) {
+                        image[i].style.display="none";
+                  }
+                  if (index<1){index=image.length};
+                  if(index>image.length){index=1};
+                  image[index-1].style.display="block"
+
+
+
+
+             }
+       </script>
+
+
+            <p class="clothtitle"> Home Appliance </p>
+            <div class="homeappliance" style="height: 190px;width: 735px;">
+            
+            <img src="iron 2.jpg"  style="height: 190px;width: 735px;" class="home">
+            <img src="iron1.jpg"  style="height: 190px;width: 735px;" class="home">
+            <img src="microwave 2.jpg"  style="height: 190px;width: 735px;" class="home">
+            <img src="microwave.jpg"  style="height: 190px;width: 735px;" class="home"> 
+            <button class="homebut" id="hom1" onclick="plushome(-1)">&#10094;</button>
+            <button class="homebut" id="hom2"onclick="plushome(1)">&#10095;</button>    
+            </div>
+          
+            <div style="float: right;"> 
+
+              <img style="height: 200px; width:300px;" src="ad.png">
+
+              <p style="font-family: Maiandra GD,serif;  font-size: 30px; margin-top: 0px;"> Best painting gallery. </p>
+                </div>
+            <script type="text/javascript">
+            var indexh =1;
+            slideshowh(indexh);
+
+             function plushome(n){
+                  indexh +=n;
+                  slideshowh(indexh);
+
+             }
+             function slideshowh(n){
+                  var image =document.getElementsByClassName('home')
+                  for (var i = 0; i < image.length; i++) {
+                        image[i].style.display="none";
+                  }
+                  if (indexh<1){indexh=image.length};
+                  if(indexh>image.length){indexh=1};
+                  image[indexh-1].style.display="block"
+
+
+
+
+             }
+             </script>
+            <p class="clothtitle"> Shoes   &nbsp &nbsp <span style="font-size: 30px;" > (Make yourself flexible) </span>  </p>   
+            <div class="legwear"  style="height: 190px;width: 735px;">
+            <img src="shoes 1.jpg" style="height: 190px;width: 735px;" class="shoes">
+            <img src="shoes 2.jpg"  style="height: 190px;width: 735px;" class="shoes">
+            <img src="shoes 3.jpg" style="height: 190px;width: 735px;" class="shoes"> 
+            <button class="shoesbut" id="shoe1" onclick="plusshoe(-1)" >&#10094; </button>
+            <button class="shoesbut" id="shoe2" onclick="plusshoe(1)"> &#10095; </button>
+            </div>
+
+           
+             <script type="text/javascript">
+            var indexs =1;
+            slideshowsh(indexs);
+
+             function plusshoe(n){
+                  indexs +=n;
+                  slideshowsh(indexs);
+
+             }
+             function slideshowsh(n){
+                  var image =document.getElementsByClassName('shoes')
+                  for (var i = 0; i < image.length; i++) {
+                        image[i].style.display="none";
+                  }
+                  if (indexs<1){indexs=image.length};
+                  if(indexs>image.length){indexs=1};
+                  image[indexs-1].style.display="block"
+
+
+
+
+             }
+       </script>
+       <p class="clothtitle"> Camera    </p>    
+       <div class="clicker"  style="height: 190px;width: 735px;" >
+            
+            
+            <img src="camera 1.jpg" style="height: 190px;width: 735px;" class="camera">
+            <img src="camera 2.jpg"  style="height: 190px;width: 735px;" class="camera">
+            <img src="camera 3.jpg"  style="height: 190px;width: 735px;" class="camera">   
+             <button class="cambut" id="cam1" onclick="pluscamera(-1)" >&#10094; </button>
+            <button class="cambut" id="cam2" onclick="pluscamera(1)"> &#10095; </button>   
+                  
+            </div>
+
+            <script type="text/javascript">
+            var indexc =1;
+            slideshowcam(indexc);
+
+             function pluscamera(n){
+                  indexc +=n;
+                  slideshowcam(indexc);
+
+             }
+             function slideshowcam(n){
+                  var imagec =document.getElementsByClassName('camera')
+                  for (var i = 0; i < imagec.length; i++) {
+                        imagec[i].style.display="none";
+                  }
+                  if (indexc<1){indexc=imagec.length};
+                  if(indexc>imagec.length){indexc=1};
+                  imagec[indexc-1].style.display="block";
+
+
+
+
+             }
+       </script>
+
+
+
+
+
+       <p class="clothtitle"> Bags  &nbsp &nbsp <span style="font-size: 30px;" > (Go with more choices) </span>   </p>     
+       <div style="height: 190px;width: 735px;" class="bigbag">
+            <img src="BAG1.jpg" style="height: 190px;width: 735px;" class="bags">
+            <img src="malebag.jpg" style="height: 190px;width: 735px;" class="bags"> 
+            <img src="bag3.jpg" style="height: 190px;width: 735px;" class="bags">
+            
+            
+             <button class="bagbut" id="bag1" onclick="plusbag(-1)"> &#10094; </button>
+            <button class="bagbut" id="bag2" onclick="plusbag(1)"> &#10095; </button>   
+       </div>
+
+        <script type="text/javascript">
+            var indexb =1;
+            slideshowcam(indexb);
+
+             function plusbag(n){
+                  indexb +=n;
+                  slideshowbag(indexb);
+
+             }
+             function slideshowbag(n){
+                  var image =document.getElementsByClassName('bags')
+                  for (var i = 0; i < image.length; i++) {
+                        image[i].style.display="none";
+                  }
+                  if (indexb<1){indexb=image.length};
+                  if(indexb>image.length){indexb=1};
+                  image[indexb-1].style.display="block";
+
+
+
+
+             }
+       </script>
+
+
+     
+
+
+
+
+
+
+
+         
+      
+
+
+
+
+
+
+      <footer >
+      	<ul id="footer1">
+      		<li><a href="us.html" target="blank" >	About us</a></li>
+      		
+      		
+      		<li><a href="feedback.html" target="blank">	Feedback</a></li>
+      		
+      		<li><a href="help.html" target="blank" >	Help</a></li>
+
+
+  		
+
+      		
+      	</ul>
+
+      	
+      </footer>
+
+
+
+
+      
+      
+
+
+
+
+
+
+
+
+
+</body>
+</html 

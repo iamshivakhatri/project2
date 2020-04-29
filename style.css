@@ -1,0 +1,152 @@
+
+
+
+
+body {
+	margin:0 ;
+
+	
+}
+
+header {
+
+
+	background:black;
+	color:white;
+	padding: 8px 0px 6px 80px;
+	height:40px;
+
+}
+header h1{
+	padding-bottom: 200px;
+	transform: translate(8px,-7px);
+	display:inline;
+	float:left;
+	margin-top:0px; 
+	margin-right:5px; 
+	font-size: 45px
+
+}
+ header ul{
+	display:inline;
+	float:left;
+}
+ header ul li {
+	display:inline-block;
+	list-style-type: none;
+	color:white;
+	float:left;
+	margin-left:50px;
+	font-style:none;
+	font-size: 20 px;
+}
+header ul li a {
+	color:white;
+	
+	
+	text-decoration: none;
+
+}
+# yo {
+
+}
+.homered {
+	margin-top: -25px;
+	position: absolute;
+	background:red;
+	padding :23px 25px 18px 25px;
+
+}
+.homeblack:hover {
+	background:blue;
+	padding :23px 5px 13px 6px;
+
+}
+
+
+.talako{
+	background:red;
+	height:5px;
+}
+.firstpic{
+	margin:0 0 0 17%;
+}
+.red{
+	background: red;
+	padding :23px 5px 17px 6px;
+}
+.blue:hover {
+	background:blue;
+	padding :23px 5px 13px 6px;
+}
+.eblue:hover {
+	background:blue;
+	padding :23px 5px 13px 6px;
+
+}
+.ered{
+	background: red;
+	padding :23px 5px 17px 6px;
+}
+.ared{
+	background: red;
+	padding :23px 5px 17px 6px;
+}
+.ablue:hover{
+	background:blue;
+	padding :23px 5px 13px 6px;
+
+}
+
+#loginbody {
+	background-image: url("drops.jpg");
+	background-size: cover;
+	
+
+	
+}
+
+		footer {
+			margin-top: 250px;
+			
+			background-color: #FF3399;
+			height: 100px;
+		}
+		#footer1  a{
+			font-size: 20px;
+
+		}
+		footer ul {
+			margin-left: 300px;
+
+		}
+		footer ul li {
+			display: inline;
+			margin-right: 200px;
+		}
+		
+		footer ul li a {
+			text-decoration: none;
+			color: white;
+		}
+
+		footer ul li :hover {
+
+			color: rgb(0,0,0);
+		}
+	
+
+		.see {
+			border-radius: 9px;
+			
+			outline: none;
+			border:none;
+			margin-top: -15px;
+			height: 25px;
+			width: 225px
+			
+		}
+
+	
+
+	
